@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Practise Project</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg nav navbar-dark  ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">Be~Jewel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">A</a></li>
+                  <li><a class="dropdown-item" href="#">B</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">C</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+     
+    <div class = "back-1">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <h1 class = "col-h1" >Be~Jewel</h1>
+                <p class="col-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quidem quis similique ipsum laboriosam sapiente? Recusandae eligendi laudantium</p>
+                    <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#form-Modal" >Sign-Up</button>
+              </div>
+              <div class="col">
+              </div>
+            </div>
+          </div>
+    </div>
+  
+    <div class = "back-2">
+    <div class="container">
+         <div class="row" style="margin-top: 0.5rem; padding-top: 1rem;">
+            <div class="col ">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    <h1 class="col-1-h1">LiVe RoYaL. . .</h1>
+                </div>
+                <div class="col">
+                    <p style = "font-size: 25px; text-align: center;">"Sophistication in its finest form is simplicity.."</p>
+                </div>
+         </div>
+    </div>
+</div>
+
+<div class="row-card">
+    <div class="container">
+        <div class="row" >
+            <div class="col">
+                <div class="card" style="width: 17rem;  ">
+                    <img src="./images/pexels-the-glorious-studio-7541801.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style = "border-radius: 4px;">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 17rem; ">
+                    <img src="./images/pexels-dima-valkov-3266703.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style = " border-radius: 4px;">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 17rem; ">
+                    <img src="./images/pexels-cristiano-de-luca-10356136.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style = " border-radius: 4px;">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+     <div class="back-3" >
+       <div class="container">
+        <div class="row" style = "margin-top: 4rem;">
+            <div class="col-2">
+
+            </div>
+            <div class="col-8">
+                <h2 class = "col-h2">"Beauty is who you are. <br>Jewellery is simply the icing on the cake."</h2>
+            </div>
+            <div class="col-2"></div>
+        </div>
+       </div>
+   </div>
+
+   <footer>
+      <p style="color:white; padding-top: 1px;">@2023</p>
+   </footer>
+ 
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="form-Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header modal-1">
+          <h1 class="modal-title fs-5 " id="exampleModalLabel" >Details</h1>
+        </div>
+            <form action="connect.php" method="post">
+        <div style = "margin: 2rem;">
+            <div class="mb-3" >
+                <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstname" name = "firstname" placeholder="Enter your first name" required>
+              </div>
+              <div class="mb-3" >
+                <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastname" name = "lastname" placeholder="Enter your last name" required>
+              </div>
+        <div class="mb-3" >
+            <label for="exampleFormControlInput1" class="form-label">Email Id</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email " required>
+          </div>
+          <div class="mb-3" >
+            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phonenumber" name = "phonenumber" placeholder="Enter your phone number " required>
+          </div>
+          <div class="mb-3" >
+            <label for="exampleFormControlInput1" class="form-label">Date of Birth</label>
+            <input type="date" class="form-control" id="dob" name ="dob" placeholder="Enter DOB " required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+            <textarea class="form-control" id="address" name="address" rows="3" placeholder="Enter your address" required></textarea>
+          </div>
+          
+        </div>
+        <button class="button-form"  type="submit">Submit</button>
+        <br>
+        <button class="button-form"  type="submit">Reset</button>
+              
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <script src = "node_modules/jquery/dist/jquery.min.js"></script> 
+    <script src = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

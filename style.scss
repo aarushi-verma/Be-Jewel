@@ -1,0 +1,178 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.nav {
+    background-color: rgb(12, 2, 18);
+    font-size: 20px;
+}
+
+
+.back-1{
+    background: rgb(34, 34, 34) url("./images/back-1.jpg");
+    background-size:cover;
+    height: 25rem;
+    background-blend-mode: overlay;
+}
+
+
+
+.col-h1{
+    color: white;
+    position: relative;
+    margin-top:10%;
+    font-size: 70px;
+   
+}
+
+.col-p{
+    color: white;
+    text-align: center;
+   
+}
+
+.back-2{
+    background-color: rgb(19, 3, 23);
+    border-radius: 5px;
+    color:white;
+    
+}
+
+.row-card{
+    margin-top: 5rem;  
+    margin-left: 4.5rem;
+}
+    
+
+.col-1-h1{
+    font-weight: bold;
+}
+
+img{
+    height: 15rem;
+    
+}
+
+.back-3{
+    background: rgb(34, 34, 34) url("./images/back-1.jpg");
+    background-size:cover;
+    height: 17rem;
+    position: center;
+    background-blend-mode: overlay;
+    
+}
+
+.col-h2{
+    color:white;
+    margin-top: 5rem;
+}
+
+footer{
+    background-color: rgb(15, 4, 20);
+    height:2rem;
+}
+
+.modal-1{
+    background-color: rgb(39, 1, 60);
+    color: white;
+}
+
+label{
+    font-size: 20px;
+}
+.form-1{
+   margin: 2rem;
+
+}
+
+.button-form{
+    background-color: rgb(39, 1, 60);
+    color: white; 
+    margin-top: 2px;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+}
+
+.button-form:hover{
+    background-color: white;
+    color: rgb(39, 1, 60) ;
+    border: 0.5px solid rgb(39, 1, 60) ;
+   
+}
+
+@media only screen and (min-width:360px) {
+    .back-1{
+    margin: 2rem;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .row-card{
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+   .row-card{
+    margin-left: 13rem;
+   }
+    
+}
+@media only screen and (max-width:630px) {
+    .row-card{
+     margin-left: 10rem;
+    }
+     
+ }
+ @media only screen and (max-width:584px) {
+    .row-card{
+     margin-left: 8rem;
+    }
+     
+ }
+ @media only screen and (max-width:511px) {
+    .row-card{
+     margin-left: 5rem;
+    }
+     
+ }
+ @media only screen and (max-width:429px) {
+    .row-card{
+     margin-left: 3rem;
+    }
+     
+ }
+ @media only screen and (max-width:378px) {
+    .row-card{
+     margin-left: 1.8rem;
+    }
+     
+ }
+ @media only screen and (max-width:339px) {
+    .row-card{
+     margin-left: 1rem;
+    }
+     
+ }
+ @media only screen and (max-width:319px) {
+    .row-card{
+     margin-left: 0.5rem;
+    }
+     
+ }
+ @media only screen and (max-width:297px) {
+    .row-card{
+     margin-left: 0 ;
+    }
+     
+ }
+
