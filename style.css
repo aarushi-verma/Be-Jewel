@@ -12042,7 +12042,7 @@ textarea.form-control-lg {
 }
 
 .back-1 {
-  background: rgb(34, 34, 34) url("./images/back-1.jpg");
+  background: rgb(34, 34, 34) url("back-1.jpg");
   background-size: cover;
   height: 25rem;
   background-blend-mode: overlay;
@@ -12080,7 +12080,7 @@ img {
 }
 
 .back-3 {
-  background: rgb(34, 34, 34) url("./images/back-1.jpg");
+  background: rgb(34, 34, 34) url("back-1.jpg");
   background-size: cover;
   height: 17rem;
   position: center;
